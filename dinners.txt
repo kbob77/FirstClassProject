@@ -1,5 +1,12 @@
-None
-None
-None
-None
-spaghetti
+Dinner: pizza	    Type: italian	    Ingredients: dough and sauce	                         Preperation Time: 20 minutes
+Dinner: Spaghetti	Type: italian	    Ingredients: Pasta and sauce	                         Preperation Time: 20 minutes
+Dinner: Taco	    Type: Mexican	    Ingredients: Taco meat, Taco, Shells and cheese	         Preperation Time: 20 minutes
+Dinner: Nachos	    Type: Mexian	    Ingredients: Chips, cheese and salsa	                 Preperation Time: 20 minutes
+Dinner: Fried Rice	Type: Asian	        Ingredients: Rice, fried egg, soy sauce and vegetables	 Preperation Time: 20 minutes
+Dinner: Burrito		 Type of food: Mexican	 	 Ingredients: Beans, cheese, tortilla shell and salsa 		 Preperation time: 15 minutes
+Dinner: Sushi		 Type of food: Asian	 	 Ingredients: Sushi rice, salmon, cucumber and carrots 		 Preperation time: 40 minutes
+Dinner: Hamburgers		 Type: American	 	 Ingredients: Burgers, cheese, buns 		 Preperation time: 25 minutes
+Dinner: Steak		 Type: American	 	 Ingredients: Steak and potato 		 Preperation time: 30 minutes
+Dinner: Chili		 Type: american	 	 Ingredients: can of chili 		 Preperation time: 5 minutes
+Dinner: Ramen		 Type: Asian	 	 Ingredients: Cup of noodles 		 Preperation time: 5 minutes
+Dinner: Lasagna		 Type: italian	 	 Ingredients: Noodles, meat sauce and garlic bread 		 Preperation time: 45 minutes

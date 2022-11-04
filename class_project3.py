@@ -15,15 +15,8 @@ class Dinner:
         Dinner.dinnercount += 1
         
     def __str__(self):
-        return 'You entered this dinner: ' + self.name +  ', Type of food: ' + self.type_of_food + ', the ingredients '+ self.ingredients + ', Preperation time: '+ self.preperation_time + ' minutes'
+        return '\nDinner: ' + self.name +  '\t\t Type: ' + self.type_of_food + '\t \t Ingredients: '+ self.ingredients + ' \t\t Preperation time: '+ self.preperation_time + ' minutes' 
         
-# def displaydinner(self):
-#     print('Name of Dinner ', self.name, "type ", self.type_of_food, 'Ingredients ',  self.Ingredients)
-        
-        
-
-
-
 def getdinner(name):
     d = Dinner()
     d.name = name
@@ -33,21 +26,23 @@ def getdinner(name):
     print(str(d)) 
     return d
 
-
-
-
 dinnerlist = []
 
 name = ''
 while name != 'done':
-    name = input ('Would you like to add a dinner or done to exit. ')
+    name = input ('Would you like to add a dinner or type done to exit. ')
     if name != 'done':
         dinnerlist.append(getdinner(name))
         
 for d in dinnerlist:
     print(str(d))
 
-        
+
+
+
+    f = open('dinners.txt', 'a')
+    f.write(str(d))
+    f.close()       
 
 
 
