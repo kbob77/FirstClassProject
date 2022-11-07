@@ -11,7 +11,6 @@ class Dinner:
         self.type_of_food = type_of_food
         self.ingredients = []
         self.preperation_time = ''
-        
         Dinner.dinnercount += 1
         
     def __str__(self):
@@ -30,7 +29,9 @@ dinnerlist = []
 
 name = ''
 while name != 'done':
-    name = input ('Would you like to add a dinner or type done to exit. ')
+
+    name = input ('Please add a Dinner or done to exit. ')
+
     if name != 'done':
         dinnerlist.append(getdinner(name))
         
