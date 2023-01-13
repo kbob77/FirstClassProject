@@ -1,6 +1,10 @@
 from fileinput import close
 import os
 import random
+from PyQt6.QtWidgets import *
+
+
+    
 
 class Dinner:
     'Dinner Ideas'
@@ -61,4 +65,7 @@ while True:
     else :
         print('type yes or no')
         continue
+
+
+    
 
