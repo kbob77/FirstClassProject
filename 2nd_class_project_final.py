@@ -7,9 +7,9 @@ from tkinter import filedialog
 customtkinter.set_appearance_mode("light")  
 customtkinter.set_default_color_theme("blue") 
 
-t = (r'F:\OneDrive\Documents\GitHub\FirstClassProject\test.txt')
+t = (r'F:\OneDrive\Documents\GitHub\FirstClassProject\dinners.txt')
 root = customtkinter.CTk()
-root.geometry("1300x333")
+root.geometry("1350x333")
 root.title("Dinner Program")
 
 def quit_program():
