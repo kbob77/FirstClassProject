@@ -10,3 +10,4 @@ Dinner: Steak		    Type: American	 	        Ingredients: Steak and potato 		    
 Dinner: Chili		    Type: american	 	        Ingredients: can of chili 		                         Preperation time: 5 minutes
 Dinner: Ramen		    Type: Asian	 	            Ingredients: Cup of noodles 		                     Preperation time: 5 minutes
 Dinner: Lasagna		    Type: italian	 	        Ingredients: Noodles, meat sauce and garlic bread 		 Preperation time: 45 minutes
+
