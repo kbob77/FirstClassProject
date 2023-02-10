@@ -16,7 +16,7 @@ def quit_program():
     root.quit()
 
 def randomDinner():
-  rdin = open('test.txt').read().splitlines()
+  rdin = open('dinners.txt').read().splitlines()
   index = random.randint(0, len(rdin)-1)
   result = rdin[index]
   
