@@ -5,6 +5,16 @@ import random
 from tkinter import filedialog
 import tkinter as tk
 from tkinter import ttk
+import mysql.connector
+
+
+# Set up the connection to the MySQL server
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  password="Roze0806...",
+  database="dinners"
+)
 
 
 customtkinter.set_appearance_mode("light")  
@@ -27,7 +37,7 @@ class Dinner:
         
         Dinner.dinnercount += 1
         
-        def __str__(self):
+    def __str__(self):
           return 'Dinner: ' + self.name +  '\tType: ' + self.type_of_food + '\tIngredients: '+ ', '.join(self.ingredients) + ' \tPreperation time: '+ str(self.preperation_time) + ' minutes'
 dinners = []
 with open('dinners.txt', 'r') as f:
@@ -107,6 +117,9 @@ dinner.grid(row=11)
 type.grid(row=12)
 ingredients.grid(row=13)
 prep.grid(row=14)
+
+
+
 
 
 def getvals():
