@@ -1,6 +1,6 @@
 from tkinter import *
 import tkinter.messagebox
-import customtkinter
+import ustomtkinter
 import random
 from tkinter import filedialog
 import tkinter as tk

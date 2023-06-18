@@ -1,16 +1,18 @@
 import pymysql
 
-# db = pymysql.connect(host='localhost', user='root', password='Roze0806...', database='northwind')
-# db.autocommit(True)
-# lname = input('give me a last name to search for: ')
-# sql = "select `first name`, `last name` from employees where `last name`='"+lname+"'"
-# crsr = db.cursor()
-# res = crsr.execute(sql)
-# for row in crsr:
-#     print(row[0] + ' ' + row[1])
+db = pymysql.connect(host='localhost', user='root', password='Roze0806...', database='northwind')
+db.autocommit(True)
+lname = input('give me a last name to search for: ')
+sql = "select `first name`, `last name` from employees where `last name`='"+lname+"'"
+crsr = db.cursor()
+res = crsr.execute(sql)
+for row in crsr:
+    print(row[0] + ' ' + row[1])
 
-# crsr.close()
-# db.close()
+crsr.close()
+db.close()
+
+
 
 # db = pymysql.connect(host='localhost', user='root', password='Roze0806...', database='northwind')
 # db.autocommit(True)

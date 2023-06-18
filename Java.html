@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Javascript Demo</title>
+    <script lang ="javascript">
+      function showname(){
+        var n = document.getElementById('dinner')
+        var m = document.getElementById('message')
+        if (n.value.length > 0) {
+          m.innerHTML = n.value + ' sounds good! '  
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <p>What would you like for dinner?  <input id='dinner' type ='text'></p>
+      <p id = 'message'></p>
+    </div>
+    <div>
+      <button onclick="showname()">Submit</button>
+    </div>
+  </body>
+</html>
