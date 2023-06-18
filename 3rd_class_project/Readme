@@ -1,3 +1,27 @@
+##This Program allows you to add dinners to a database.
+## It also allows you to pick a random dinner from the dinners in the database
+
+## This program was created by:Kelly Rich
+
+## This program was created on: 06/17/2023
+
+## This program was last modified on: 06/17/2023
+
+## This program is a random dinner generator
+
+## This program is written in: Python
+
+## This program is written for: Python 3.9.5
+
+##Need to add a .env file that looks like:
+DB_NAME='dinners'
+DB_USER='root'
+DB_PASSWORD='password'
+DB_HOST='localhost'
+
+
+## these are the stored procedures for the sql database in order to make the program run
+
 sql stored procedures
 ## add_dinner
 CREATE DEFINER=`root`@`localhost` PROCEDURE `add_dinner`(
