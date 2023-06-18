@@ -1,0 +1,28 @@
+sql stored procedures
+## add_dinner
+CREATE DEFINER=`root`@`localhost` PROCEDURE `add_dinner`(
+	in dinner varchar(250), type varchar(250), ingredients varchar(250), prep_time int
+    
+)
+BEGIN
+	INSERT INTO dinners (dinner, type, ingredients, prep_time)
+   VALUES (dinner, type, ingredients, prep_time);
+END
+
+## grab_dinner
+CREATE DEFINER=`root`@`localhost` PROCEDURE `grab_dinner`()
+BEGIN
+    SELECT `dinner`, `type`, `ingredients`, `prep_time` 
+    FROM dinners 
+    ORDER BY RAND()
+    LIMIT 1;
+END
+
+## grab_rows
+CREATE DEFINER=`root`@`localhost` PROCEDURE `grab_rows`(
+	
+    
+)
+BEGIN
+	SELECT COUNT(*) FROM dinners;
+END
